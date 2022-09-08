@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maaz"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/button1"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="Text to speech"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/Trak"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:text="Tracking"
+        />
+
+    <Button
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="240dp"
+        android:text="speech to text" />
+
+    <Button
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="390dp"
+        android:text="Learn Sign Language" />
+
+
+
+
+
+</RelativeLayout>
